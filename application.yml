@@ -14,4 +14,4 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQL5Dialect # stripped before adding them to the entity manager)
         naming:
-            physical-strategy: com.XX.XX.common.MySQLUpperCaseStrategy
+            physical-strategy: com.example.common.MySQLUpperCaseStrategy
